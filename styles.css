@@ -1,4 +1,22 @@
 
+html {
+    width: 100%;
+    background-color: hsla(334, 52%, 87%, 0.653);
+    height: 100vh;
+}
+
+.container {
+    flex: 1;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.recipe-pic {
+    border-radius: 20px;
+}
 
 table {
     width: 50%;
@@ -25,5 +43,5 @@ table {
     background-color: #f1f1f1;
   }
 
-  .attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
