@@ -1,8 +1,31 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
 
 html {
     width: 100%;
-    background-color: hsla(334, 52%, 87%, 0.653);
+    background-color: hsl(30, 18%, 87%);
     height: 100vh;
+    font-family: 'Outfit';
+}
+
+h1, h2 {
+    font-family: 'Young Serif';   
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
 }
 
 .container {
@@ -16,6 +39,13 @@ html {
 
 .recipe-pic {
     border-radius: 20px;
+}
+
+.prep-time {
+    margin-top: 10px;
+    background-color: hsl(30, 18%, 87%);
+    padding: 10px;
+
 }
 
 table {
