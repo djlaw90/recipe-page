@@ -17,21 +17,35 @@ html {
 }
 
 h1, h2 {
-    font-family: 'Young Serif';   
+    font-family: 'Young Serif';
+    font-weight: 300;
 }
 
 h1 {
     font-size: 3em;
 }
 
-h2 {
+.value, h2 {
     color: hsl(332, 51%, 32%);
+}
+
+.value {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .container {
     flex: 1;
     width: 900px;
-    margin: 0 auto;
+    margin: 30px auto;
     background-color: white;
     border-radius: 20px;
     padding: 30px;
@@ -43,21 +57,21 @@ h2 {
 
 .prep-time {
     margin-top: 10px;
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 54%, 90%);
     padding: 10px;
 
 }
 
 table {
-    width: 50%;
-    margin: auto;
+    width: 90%;
+    margin: 20px auto;
     border-collapse: collapse;
     text-align: left;
     font-family: Arial, sans-serif;
   }
 
   th, td {
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 10px;
   }
 
